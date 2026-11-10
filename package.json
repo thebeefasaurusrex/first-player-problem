@@ -1,0 +1,23 @@
+{
+  "name": "first-player-problem",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simulate board-game rules and measure balance across seats and presets.",
+  "type": "module",
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "bin": {
+    "first-player-problem": "bin/first-player-problem.mjs"
+  },
+  "files": [
+    "bin/",
+    "table/",
+    "lib/",
+    "examples/"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "Apache-2.0"
+}
